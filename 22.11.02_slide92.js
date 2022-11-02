@@ -16,7 +16,7 @@ console.log(diff(A, C)); // 1, 2, 5
 console.log(diff(B, C)); // 1, 22, 44, 5
 
 const union = (arr1, arr2) => new Set([...arr1, ...arr2]);
-console.log(union(A,B));
-console.log(union(A,C));
+console.log(union(A,B)); //1, 2, 3, 4, 5, 22, 44
+console.log(union(A,C)); //1, 2, 3, 4, 5, 11, 222, 555
 
 
